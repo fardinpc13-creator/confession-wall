@@ -8,15 +8,6 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Confession Wall | Base',
   description: 'Anonymous confessions on Base blockchain',
-  keywords: ['base', 'blockchain', 'confessions', 'anonymous', 'web3'],
-  openGraph: {
-    title: 'Confession Wall',
-    description: 'Share anonymous confessions on Base',
-    type: 'website',
-  },
-  other: {
-    'base:app_id': '60d56c21f178918fa3139b16',
-  }
 }
 
 export default function RootLayout({
@@ -27,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <head>
-        <meta name="base:app_id" content="60d56c21f178918fa3139b16" />
+        <meta name="base:app_id" content="69d56c21f178918fa3139b15" />
       </head>
       <body className={inter.className}>
         <Providers>{children}</Providers>
