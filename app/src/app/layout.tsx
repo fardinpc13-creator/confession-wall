@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <head>
-        <meta name="base:app_id" content="69d56c21f178918fa3139b15" />
+        <meta name="base:app_id" content="69d56939f178918fa3139b13" />
       </head>
       <body className={inter.className}>
         <Providers>{children}</Providers>
